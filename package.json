@@ -1,0 +1,17 @@
+{
+  "name": "bun-build-@tryfabricmartian",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dist": "bun build ./index.ts --compile --outfile mycli"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tryfabric/martian": "^1.2.4"
+  }
+}
